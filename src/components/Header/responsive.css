@@ -1,0 +1,34 @@
+@media (min-width:767px){
+    .nav-link.active:after {
+        content: "";
+        position: absolute;
+        bottom: -21px;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: var(--mainBlack);
+        /* transition: 1s ease-in; */
+      }
+      .nav-link{
+        font-style: normal;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: var(--lightBlack) !important;
+    margin: 0 16px !important;
+    padding: 0 !important;
+    }
+    
+}
+@media (min-width:992px){
+    .navBackground{
+        max-height: 64px;
+    }
+}
+
+@media (min-width:1200px){
+    .container{
+        padding: 0 60px !important;
+        min-width: 100% !important;
+    }
+}

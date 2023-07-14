@@ -1,0 +1,8 @@
+@media (max-width:768px){
+    .allContent60{
+        padding: 0 12px;
+    }
+    .detailsFirstSection{
+        flex-direction: column;
+    }
+}

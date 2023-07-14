@@ -1,0 +1,120 @@
+@media (max-width:768px){
+    #sectionEight{
+        padding: 40px 12px;
+    }
+    #sectionOne{
+        padding: 40px 12px 220px;
+        /* padding: 40px 12px 40px; */
+    }
+    .sectionOneFlex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .soneTitle{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 33px;
+    color: #1D243C;
+    }
+    .soneText{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .sonePoints{
+        font-size: 14px;
+        line-height: 16px;
+padding-bottom: 12px;
+    }
+    .contentBoxWhite{
+        max-width: 351px;
+height: 195px;
+background: var(--mainWhite);
+box-shadow: 0px 8px 20px rgba(0, 187, 187, 0.12);
+border-radius: 8px;
+    }
+    .sectionRight{
+        padding: 0 12px;
+    }
+    .sectionFlexBox{
+        display: flex;
+    flex-direction: column;
+    }
+    #sectiontwo{
+        padding: 20px 12px;
+    }
+    #sectionFour{
+        padding: 40px 12px;
+    }
+    #sectionFive{
+        padding: 40px 12px;
+    }
+    #sectionSix{
+        padding: 40px 12px;
+    }
+    .sectionFlexBox .sectionflexItem{
+        padding: 0;
+        width: 100%;
+    }
+    #sectionFive .sectionFlexBox .sectionflexItem{
+        padding: 20px;
+        width: 100%;
+    }
+    #sectionSix .sectionFlexBox .sectionflexItem{
+        padding: 20px;
+        width: 100%;
+    }
+    #sectionSeven{
+        background-color: #fafafa;
+        padding: 40px 12px;
+    }
+    #sectionSeven .slick-slide img{
+        max-width: 100px;
+       height: auto;
+       padding: 2px 2px;
+    }
+      
+    .clientLogo{
+        width: 100%;
+        min-width: 80px;
+    }
+
+    /* Slick SLider */
+    .slick-slide{
+        margin: 0 ;
+    }
+    /* End Slick SLider */
+    /* Section 3 */
+#sectionThree{
+    padding: 40px 12px;
+}
+/* End Section 3 */
+.formTitleName{
+    font-size: 20px !important;
+    line-height: 23px;
+}
+.searchFilterForm{
+    flex-direction: column;
+}
+.filterItem:last-child{
+    width: 100%;
+}
+#searchFilter{
+    max-width: 100%;
+    /* margin: auto; */
+    background: var(--mainWhite);
+box-shadow: 0px 8px 20px rgba(0, 187, 187, 0.12);
+border-radius: 8px;
+padding: 16px;
+margin: -190px 12px 30px 12px;
+}
+.featuredSlider .slick-list{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+}
+/* #searchFilter select option:hover{
+    background-color: red;
+} */

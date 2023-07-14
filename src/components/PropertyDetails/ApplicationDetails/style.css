@@ -1,0 +1,64 @@
+.appDetailsTitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--mainBlack);
+    position: relative;
+    /* display: inline-block; */
+    padding-right: 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .appDetailsTitle::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 1px;
+    width: auto;
+    background-color: var(--lightGray2);
+    left:164px;
+  }
+  .appDetailsData{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 16px;
+    padding:16px 0 20px 0;
+  }
+  .appDetailsData div{
+    padding: 0 20px 0 0;
+    width:calc(100%);
+  }
+  .appDetailsData div:not(:last-child){
+    border-right: 1px solid #BCBCBC;
+  }
+  .appDetailsData p{
+    text-align: left;
+  }
+  .appDetailsLabel{
+    font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+color: var(--mainBlue);
+margin-block-end: 0;
+margin-block-start: 0;
+  }
+  .appDetailsValue{
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: var(--mainBlack);
+margin-block-start: 4px;
+margin-block-end: 0;
+  }
+  .extensionDesc{
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: var(--mainBlack);
+margin-block-start: 4px;
+margin-block-end: 0;
+  }

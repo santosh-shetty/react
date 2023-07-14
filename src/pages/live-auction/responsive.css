@@ -1,0 +1,9 @@
+@media (max-width:768px){
+    .auctionContent{
+        padding: 0 12px;
+        background-color: #e5e5e5;
+    }
+    .auctionFirstSection{
+        flex-direction: column;
+    }
+}

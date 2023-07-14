@@ -1,0 +1,22 @@
+@media (max-width:768px){
+  .footerFirstColumn{
+    width: 100%;
+ }
+    .footerBox{
+        padding: 20px 12px;
+        flex-direction: column;
+    }
+    .padding-bottom-20-16{
+        padding-bottom: 16px;
+    }
+    .footerCol {
+        flex-basis: 50%; /* Change the width of each column for mobile devices */
+      }
+      .footerSecondColumn{
+        width: 100%;
+        padding-top: 40px;
+      }
+      .footerSecondColumn .footerCol:last-child{
+        padding-top: 40px;
+      }
+}

@@ -1,0 +1,20 @@
+.dashBoardContent{
+    padding: 20px 60px;
+
+}
+.dashboardMainContent{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+}
+.dashboardSidebar{
+    min-width: 25%;
+    max-width: 25%;
+}
+.dashboardUserContent{
+    background-color: var(--lightGray1);
+    width: 100%;
+    border-radius: 16px;
+    padding: 25px 16px 16px;
+    overflow-x: hidden;
+}

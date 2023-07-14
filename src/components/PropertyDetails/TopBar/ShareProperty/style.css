@@ -1,0 +1,20 @@
+.shareButton{
+    display: inline;
+    padding-left: 8px;
+}
+.propertyId{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+display: inline;
+align-items: center;
+color: var(--mainBlack);
+
+}
+.propertyId span{
+    background-color: #CFE9FF;
+    padding: 4px 12px;
+    border-radius: 20px;
+}

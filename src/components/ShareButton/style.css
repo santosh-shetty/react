@@ -1,0 +1,76 @@
+.share-container {
+    position: relative;
+  }
+  
+  .social-icons {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    background-color: var(--mainBlack);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .facebook {
+  /* width: 18px; */
+  padding: 4px;
+  }
+  
+  .twitter {
+    /* background-image: url('../../Icons/Twitter.svg');
+    background-size:10px;
+    background-position: center; */
+    /* padding: 4px; */
+  }
+  
+  .whatsapp {
+    background-image: url('../../Icons/Whatsapp.svg');
+    background-size:10px;
+    background-position: center;
+  }
+  
+  .linkedin {
+    background-image: url('../../Icons/LinkedIn.svg');
+    background-size:10px;
+    background-position: center;
+  }
+  .shareIcon{
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .icon {
+      width: 25px;
+      height: 25px;
+    }
+    
+    .social-icons {
+      top: calc(100% + 5px);
+      padding: 5px;
+      gap: 5px;
+      transform: translateY(-130%);
+      left: -20%;
+    }
+  }
+  

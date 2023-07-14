@@ -1,0 +1,14 @@
+@media (max-width:768px){
+    .infoPoint{
+        display: flex;
+        gap: 8px;
+        padding-top: 16px;
+      }
+      .infoPoint p{
+        font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #303030;
+      }
+}

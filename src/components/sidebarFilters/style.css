@@ -1,0 +1,93 @@
+.chip {
+  display: inline-block;
+  background-color: var(--lightGray1);
+  border-radius: 5px;
+  padding: 8px;
+  margin: 4px 8px 4px 0px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--darkGray);
+  cursor: pointer;
+}
+
+#view-more-btn {
+  display: block;
+  margin-top: 16px;
+  background-color: #fff;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--mainBlack);
+}
+
+.filterTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--mainBlack);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.selected {
+  background-color: #d7eef0;
+  color: var(--mainBlack);
+}
+
+.selectedBlack{
+  background-color: var(--mainBlack);
+  color: #fff;
+}
+.searchBar {
+  display: flex;
+  width: 100%;
+  margin: 8px 0 4px 0;
+  background: #fafafa;
+  border: 1px solid var(--lightGray2);
+  border-radius: 5px;
+  outline: none;
+  padding: 8px 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--darkGray);
+}
+.searchBar:focus {
+  color: var(--mainBlack);
+  border: 1px solid var(--mainBlue);
+}
+
+.clearFilterBtn {
+  margin-top: 16px;
+  background-color: #fff;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--mainBlack);
+}
+.btnGroup {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.lineBreak20 {
+  width: 100%;
+  height: 1px;
+  margin: 20px 0;
+  background-color: var(--lightGray2);
+}
+.ExpandIcon {
+  margin-left: 5px;
+}
+.CollapseIcon {
+  rotate: 180deg;
+  margin-left: 5px;
+}
+

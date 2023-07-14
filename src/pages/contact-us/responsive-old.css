@@ -1,0 +1,57 @@
+@media (max-width:768px) {
+    .paddingTop {
+        padding-top: 40px;
+    }
+
+    .contactTitle {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .contactSubtitle {
+        margin: 8px 0 0;
+    }
+
+    .contactDataTitle {
+        text-align: center;
+    }
+
+    .contactdataSubtitle {
+        text-align: center;
+    }
+
+    .contactdataLink {
+        text-align: center;
+    }
+
+    .cLink {
+        text-align: center;
+    }
+
+    .twoCol {
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+    }
+
+    .contactFormSection {
+        padding: 32px 20px;
+    }
+
+    .fiveCol {
+        gap: 32px;
+    }
+
+    .fiveColFlexItem {
+        width: 100%;
+    }
+
+    .contactsecondTitle {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: var(--mainBlack);
+    }
+}

@@ -1,0 +1,22 @@
+@media (max-width:768px){
+    .authContainer .loginLeftDetails {
+        flex-basis: 100%;
+      }
+      .authContainer .loginRightDetails {
+        flex-basis: 100%;
+        padding: 12px;
+      }
+      .authBtnGroup{
+        flex-direction: column;
+      }
+      .loginTitle{
+        font-size: 20px;
+        line-height: 23px;
+      }
+      .formFieldGroup{
+        flex-direction: column;
+      }
+      .formFieldGroup .formFieldGroupFlex{
+        flex-basis: 100%;
+        }
+}

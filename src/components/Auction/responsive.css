@@ -1,0 +1,36 @@
+@media (max-width:768px){
+    .auctionPropertyId{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .counterCircle {
+        max-width: 96px;
+        max-height: 96px;
+    }
+    .counterDigit{
+        font-size: 28px;
+line-height: 33px;
+    }
+    .counterText{
+        font-size: 14px;
+line-height: 16px;
+    }
+    .timeDetailsTwoCol .timeDetailsFlexItem{
+        width: calc(100% - 0px);
+     }
+     .formColGroup .formFlex:first-child{
+        flex-basis: 100%;
+    }
+    .formColGroup .formFlex:nth-child(2){
+        flex-basis: 100%;
+    }
+    .formColGroup .formFlex:last-child{
+        flex-basis: 100%;
+    }
+#bidCounter{
+    width: 100%;
+}
+.formFlex .btnDark{
+    width: 100%;
+}
+}

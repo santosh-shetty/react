@@ -1,0 +1,20 @@
+@media(max-width:768px){
+  
+      .appDetailsData{
+        flex-wrap: wrap;
+      }
+      .appDetailsData div{
+        width: calc(50% - 10px);
+      }
+      .appDetailsData div:nth-child(3){
+        width: calc(100%);
+      }
+      .appDetailsData div:not(:last-child){
+        border-right:none;
+      }
+      .appDetailsLabel{
+    font-size: 12px;
+    line-height: 14px;
+      }
+    
+}

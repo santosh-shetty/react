@@ -1,0 +1,48 @@
+@media (max-width:768px) {
+
+    .svgimg {
+        width: 148px;
+        height: 10px;
+    }
+
+    .headingtext {
+        font-size: 26px !important;
+        color: #091e25;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+    .designimage {
+        position: relative;
+        padding-left: 56px;
+        margin-top: -10px;
+    }
+
+    /* Form */
+    .twoCol {
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+    }
+
+    .contactFormSection {
+        padding: 32px 20px;
+    }
+
+    .fiveCol {
+        gap: 32px;
+    }
+
+    .fiveColFlexItem {
+        width: 100%;
+    }
+
+    .contactsecondTitle {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: var(--mainBlack);
+    }
+
+}

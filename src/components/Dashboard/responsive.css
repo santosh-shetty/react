@@ -1,0 +1,24 @@
+ 
+ /* Common */
+  @media (max-width: 768px) {
+    .formFieldCol {
+      flex-basis: 100%; /* make each column take up the full width for mobile devices */
+    }
+    .profileContentBlock{
+        padding: 12px;
+    }
+    .sectionTitle {
+      font-size: 16px;
+      line-height: 19px;
+  }
+  .activeIcon{
+    width: 14px !important;
+}
+  }
+
+  .stripTable th,
+  .stripTable td {
+    width: 100%;
+    white-space: nowrap;
+  }
+  /* End Common */

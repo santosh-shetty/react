@@ -1,0 +1,168 @@
+.cardRow {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  column-gap: 20px;
+  row-gap: 28px;
+  /* justify-content: space-between; */
+}
+
+.flexItem {
+  flex: 1 0 calc(33.34% - 16px);
+  max-width: calc(34.34% - 16px);
+  /* add this line */
+}
+
+.flexItem2 {
+  flex: 1 0 calc(33.34% - 16px);
+  max-width: calc(34.34% - 16px);
+  /* add this line */
+}
+
+.sectionTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.propCountText {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--mainBlack);
+  margin-block-start: 12px;
+  margin-block-end: 12px;
+}
+
+.propCountText span {
+  color: var(--darkGray);
+}
+
+.mainContent {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid var(--lightGray2);
+}
+
+.LeftDetails {
+  max-width: 25%;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+}
+
+.rightDetails {
+  width: 100%;
+  padding: 30px 20px 20px 20px;
+  background-color: #fafafa;
+  /* max-width: 972px; */
+  border-left: 1px solid var(--lightGray2);
+}
+
+.pagination {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pageButton {
+  background-color: #fafafa;
+  border: none;
+  margin: 0 4px;
+  padding: 5px 8px;
+  color: var(--mainBlack);
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.pageButton.active {
+  border: 1px solid var(--lightGray2);
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.prevArrow {
+  rotate: 90deg;
+  margin-right: 8px;
+}
+
+.nextArrow {
+  rotate: -90deg;
+  margin-left: 8px;
+}
+
+.mobileFilterBar {
+  /* margin-bottom: 20px; */
+}
+
+.topFilterBar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.clearAllFilter {
+  display: flex;
+  min-width: 295px;
+  justify-content: space-between;
+}
+
+.clearAllFilter p:first-child {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--mainBlack);
+  margin: 0;
+}
+
+.clearAllFilter p:last-child {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--mainBlack);
+  margin: 0;
+  cursor: pointer;
+}
+
+.filtersContainer {
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.datepicker {
+  display: inline-flex;
+  position: relative;
+  overflow: clip;
+  font-size: 12px;
+}
+
+.datepicker>input[type=date] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.datepicker>input[type=date]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: -150%;
+  left: -150%;
+  width: 300%;
+  height: 300%;
+  cursor: pointer;
+}
+
+#filtersPannel .btnGroup{
+  padding: 10px 0;
+}

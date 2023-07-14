@@ -1,0 +1,14 @@
+@media (max-width:768px){
+    .tabs{
+    padding: 4px;
+    }
+    .tab-buttons button{
+        border: none;
+        background-color: transparent;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    color: var(--lightBlack);
+    padding: 10px 12px;
+    }
+}

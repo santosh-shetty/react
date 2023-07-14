@@ -1,0 +1,68 @@
+@media only screen and (max-width: 767px) {
+
+    /* Section One */
+    #careersTitle {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    /* End */
+    #workSectionOneContent {
+        padding: 20px 0;
+    }
+
+    .contentBlock {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 0 12px;
+    }
+
+
+    /* Section Two */
+    #workSectionTwo .contentBlock {
+        max-width: 100%;
+    }
+
+    #workSectionTwo .subHeading {
+        margin-block-end: 20px;
+    }
+
+    .flexContainer {
+        display: flex;
+        /* flex-direction: column; */
+        row-gap: 9px;
+    }
+
+    .workFlexItem {
+        width: calc(50% - 10px);
+        /* Subtract column gap */
+        margin-bottom: 0px;
+        padding: 20px 0px 23px 10px;
+        border-left: 6px solid #00BBBB;
+    }
+
+    /* End Section Two */
+
+    /* Section Three */
+
+    #workSectionThree .subTitle {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .patternThree {
+        padding: 40px 0px 40px;
+    }
+
+    /* End Section Three */
+}
+
+@media only screen and (min-width: 768px) {
+    .workFlexItem {
+        width: calc(25% - 20px);
+        /* Subtract column gap */
+    }
+}

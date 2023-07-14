@@ -1,0 +1,26 @@
+.tabs{
+    background-color: var(--lightGray1);
+border: 1px solid var(--lightGray2);
+padding: 8px;
+}
+.tab-content{
+    background-color: #fff;
+    padding: 4px 4px 0 4px;
+    /* max-height: 264px; */
+}
+.tab-buttons{
+    background-color: var(--lightGray1);  
+}
+.tab-buttons button{
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: var(--lightBlack);
+padding: 10px 16px;
+}
+.active{
+    background-color: #fff !important;
+    color: var(--mainBlack) !important;
+}

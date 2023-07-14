@@ -1,0 +1,85 @@
+.TopSection{
+    display: flex;
+    justify-content: space-between;
+}
+.propertyTitle{
+    font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+color: var(--mainBlack);
+margin-block-start: 8px;
+margin-block-end: 0;
+
+}
+.propertyAddress{
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: var(--mainBlack);
+margin-block-start: 8px;
+margin-block-end: 0;
+}
+
+.reservePrice{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--mainBlue);
+    margin-block-start: 0;
+    margin-block-end: 4px;
+    text-align: right;
+    }
+    .reservePrice span{
+        padding-left: 4px;
+    }
+    .priceNumber{
+        font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: var(--mainBlack);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    }
+    .marketPrice{
+        font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: var(--lightBlack);
+    margin-block-start: 8px;
+    margin-block-end: 0;
+    }
+    .marketPrice span{
+        padding-left: 4px;
+    }
+
+    .propertyDetailsTitle {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: var(--mainBlack);
+        position: relative;
+        /* display: inline-block; */
+        padding-right: 10px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .propertyDetailsTitle::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 0;
+        height: 1px;
+        width: auto;
+        background-color: var(--lightGray2);
+        left:144px;
+      }
+ .iconGroup{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 8px;
+    gap: 12px;
+ }

@@ -1,0 +1,17 @@
+@media (max-width:768px){
+    .dashBoardContent{
+        padding: 12px;
+    
+    }
+    .dashboardSidebar{
+        width: 100%;
+        max-width: 100%;
+    }
+    .dashboardMainContent{
+        flex-direction: column;
+    }
+    .dashboardUserContent{
+        padding: 16px 8px 12px;
+        overflow-x: hidden;
+    }
+}

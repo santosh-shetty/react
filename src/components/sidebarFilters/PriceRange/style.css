@@ -1,0 +1,16 @@
+.multi-range-slider .thumb::before{
+border: solid 7px var(--mainBlack);
+box-shadow: none;
+}
+.multi-range-slider .bar{
+    height: 4px;
+}
+
+.priceRange{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--mainBlack);
+}

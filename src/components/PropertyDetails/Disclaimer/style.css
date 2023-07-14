@@ -1,0 +1,34 @@
+.disclaimerTitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--mainBlack);
+    position: relative;
+    /* display: inline-block; */
+    padding-right: 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .disclaimerTitle::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 1px;
+    width: auto;
+    background-color: var(--lightGray2);
+    left:100px;
+  }
+  .linkColor{
+    color: #4682B4;
+    text-decoration: none;
+  }
+  .readMore{
+    background-color: transparent;
+    color: #4682B4;
+    font-size: 14px;
+line-height: 16px;
+float: right;
+border: none;
+margin: 16px 0 20px 0;
+  }

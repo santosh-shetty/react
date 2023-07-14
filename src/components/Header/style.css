@@ -1,0 +1,37 @@
+.navBackground{
+    background-color: #fff;
+       border-bottom: 1px solid var(--lightGray2);
+       /* margin-bottom: 20px; */
+}
+
+Nav{
+    font-family: 'Roboto', sans-serif;
+    color: var(--mainBlack);
+}
+
+.nav-link.active {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--mainBlack) !important;
+    position: relative;
+  }
+  
+  
+  .navbar-brand{
+    padding-right: 24px !important;
+  }
+  #loginButton.nav-link{
+    background-color: var(--mainBlack) !important;
+    border-radius: 4px;
+    padding: 10px 20px !important;
+    color: #fff !important;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+  }
+
+

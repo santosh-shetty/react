@@ -1,0 +1,19 @@
+.auctionContent{
+    padding: 0 60px;
+    background-color: #e5e5e5;
+   
+}
+.auctionFirstSection{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+.AuctionRightSection{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    width: 100%;
+}
+.AuctionLeftSection{
+    width: 100%;
+}

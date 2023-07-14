@@ -1,0 +1,129 @@
+@media (max-width:768px){
+    #sectionOneAbout{
+        padding: 40px 12px;
+    }
+    #sectionOneAbout .sectionLeft h1{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--mainBlack);
+    
+    }
+    #sectionOneAbout .sectionLeft p{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--lightBlack);
+    }
+    .sectionOneFlex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .soneTitle{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 33px;
+    color: #1D243C;
+    }
+    .soneText{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .sonePoints{
+        font-size: 14px;
+        line-height: 16px;
+padding-bottom: 12px;
+    }
+    .contentBoxWhite{
+        max-width: 351px;
+height: 195px;
+background: var(--mainWhite);
+box-shadow: 0px 8px 20px rgba(0, 187, 187, 0.12);
+border-radius: 8px;
+    }
+    .sectionRight{
+        padding: 0 12px;
+    }
+    .sectionFlexBox{
+        display: flex;
+    flex-direction: column;
+    }
+    #sectionFourAbout{
+        padding: 40px 12px;
+    }
+    #sectionFiveAbout{
+        padding: 40px 12px;
+    }
+    #sectionSixAbout{
+        padding: 40px 12px;
+    }
+    .sectionFlexBox .sectionflexItem{
+        padding: 0;
+        width: 100%;
+    }
+    #sectionFiveAbout .sectionFlexBox .sectionflexItem{
+        padding: 20px !important;
+        width: 100%;
+    }
+    #sectionSixAbout .sectionFlexBox .sectionflexItem{
+        padding: 20px;
+        width: 100%;
+    }
+    #sectionSevenAbout{
+        background-color: #fff;
+        padding: 40px 12px;
+    }
+    /* .clientCarousel {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 16px;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        width: 100%; 
+      } */
+      
+      .clientItem {
+        flex: 0 0 calc(100% / 3 - 16px); /* For small devices, display 3 divs with some spacing */
+        background-color: #fff;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      
+    .clientLogo{
+        width: 100%;
+        min-width: 80px;
+    }
+    .aboutUsFlex{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #sectionEightAbout{
+        padding: 40px 12px;
+    }
+    #sectionSevenAbout .slick-slide img{
+        max-width: 100px;
+       height: auto;
+       padding: 2px 2px;
+    }
+    .sectionTitleText{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .subTitleText{
+        font-size: 12px;
+line-height: 14px;
+    }
+    .aboutUsItem p:first-child{
+        font-size: 14px;
+line-height: 16px;
+    }
+}

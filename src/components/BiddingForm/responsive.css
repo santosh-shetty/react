@@ -1,0 +1,42 @@
+@media (max-width:768px){
+    .navLabel{
+        font-size: 10px;
+    }
+    .DetailsBox{
+        padding: 16px 12px;
+        border-radius: 12px;
+    }
+    .detailsContent{
+        padding: 0 12px;
+    }
+    .formDetails{
+        display: flex;
+        gap: 16px;
+        padding-top: 4px;
+      flex-direction: column;
+    }
+    .formDetails .leftSection{
+        width: 100%;
+    }
+    .formField {
+        width: calc(100% - 0px);
+    }
+    .padding-8 {
+        padding: 6px;
+    }
+    .saveBtn{
+        width: 100%;
+    }
+
+    .termsTable tr td{
+        padding-bottom: 12px;
+    }
+    .termsTable tr:last-child td{
+        padding-bottom: 0px;
+        padding-top: 8px;
+    }
+    .fullwidth{
+        width: 100%;
+        text-align: center;
+    }
+}

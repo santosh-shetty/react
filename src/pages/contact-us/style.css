@@ -1,0 +1,227 @@
+/* cotact Us Section */
+.cotactUsSection {
+    padding: 60px 60px 40px;
+    width: 100%;
+}
+
+/* Top */
+.page-header {
+    display: none;
+}
+
+.headingtext {
+    font-weight: 900;
+    line-height: 47px;
+    font-size: 40px;
+    color: #091e25;
+    margin-bottom: 0px;
+}
+
+.contactSubHeading {
+    margin: 40px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #8E8E8E;
+}
+
+.designimage {
+    position: relative;
+    padding-left: 90px;
+    margin-top: -10px;
+}
+
+.svgimg {
+    width: 217px;
+    height: 12px;
+}
+
+/* Section 2 */
+.location-table td {
+    padding: 0px !important;
+    border: none !important;
+    vertical-align: top;
+}
+
+.location_title {
+    font-size: 16px;
+    color: #091e25;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.contact_location_details {
+    color: #091E25;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.contact_bottom_details {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #091e25;
+    margin-bottom: 0px;
+
+}
+
+/*  */
+.formDesignSvg {
+    width: 411px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -28px;
+}
+
+/* Form css */
+
+.contactFormSection {
+    background-color: #F4F4F4;
+    padding: 60px 40px;
+    border-radius: 10px;
+}
+
+.contactUsForm input[type="email"],
+.contactUsForm input[type="text"],
+.contactUsForm input[type="password"],
+.contactUsForm textarea,
+.subsriberFlex input[type="email"] {
+    background-color: #fff !important;
+    width: 100%;
+    border: 1px solid var(--lightGray2);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #090909;
+    padding: 10px 16px;
+}
+
+.subsriberFlex input[type="email"]:focus,
+.subsriberFlex input[type="email"]:not(:placeholder-shown),
+.contactUsForm input[type="email"]:focus,
+.contactUsForm input[type="email"]:not(:placeholder-shown),
+.contactUsForm input[type="text"]:focus,
+.contactUsForm input[type="text"]:not(:placeholder-shown),
+.contactUsForm input[type="password"]:focus,
+.contactUsForm textarea:focus,
+.contactUsForm input[type="password"]:not(:placeholder-shown) {
+    border: 1px solid var(--mainBlue);
+    border-radius: 4px;
+    outline: none;
+}
+
+.contact-form-select {
+    height: 36px;
+    outline: none;
+    margin-bottom: 12px !important;
+    color: #A0A0A0 !important;
+    /* color: #091E25 !important; */
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    padding: 10px 16px;
+    border: 1px solid var(--lightGray2);
+    border-radius: 4px;
+    line-height: 17px !important;
+}
+
+.contactAuthFormLabel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--mainBlue);
+    margin-block-start: 0;
+    margin-block-end: 4px;
+}
+
+.twoCol {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+}
+
+.formDeclaration {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--mainBlack);
+    margin: 12px 0 20px 0;
+}
+
+.padding-12 {
+    padding: 6px;
+}
+
+.bg-lightBlue {
+    background-color: #F5FAFC;
+    padding: 40px 40px;
+}
+
+.contactsecondTitle {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: var(--mainBlack);
+    margin: 0;
+}
+
+.descTitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: var(--mainBlack);
+    margin: 0;
+}
+
+.descText {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #3A3A3A;
+    margin: 16px 0 0;
+}
+
+.fiveCol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fiveColFlexItem {
+    width: calc(20% - 20px);
+}
+
+.padding-60 {
+    padding-top: 60px;
+}
+
+.subsriberFlex {
+    max-width: 500px;
+    margin: auto;
+    margin: auto;
+    gap: 8px;
+    display: flex;
+}
+
+.subsriberFlex input[type="email"] {
+    max-width: 400px;
+    width: 100%;
+}
+
+.subsriberFlex button {
+    width: 100%;
+    max-width: 100px;
+}
+.contactBtn{
+    margin-top: 40px;
+}

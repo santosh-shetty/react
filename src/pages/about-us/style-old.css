@@ -1,0 +1,339 @@
+/* Common */
+.subTitleText{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #1D243C;
+margin: 0;
+margin-bottom: 8px;
+}
+.sectionTitleText{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #1D243C;
+margin: 0;
+}
+.sectionFlexBox{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.sectionFlexBox .sectionflexItem{
+    background: var(--mainWhite);
+box-shadow: 0px 8px 20px rgba(29, 36, 60, 0.12);
+border-radius: 8px;
+border-top: 8px solid var(--mainBlue);
+padding: 20px;
+width: calc(25%);
+}
+.aboutUsItem .iconContainer{
+    width: 40px;
+    height: 40px;
+    background: #D7EEF0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.sectionFlexBox .sectionflexItem h4{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #1D243C;
+margin: 0;
+margin-bottom: 8px;
+}
+.sectionFlexBox .sectionflexItem p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: var(--lightBlack);
+}
+/* End Common */
+
+/* Section 1 */
+#sectionOneAbout{
+    /* background: linear-gradient(270deg, #EAF6F7 0%, rgba(234, 246, 247, 0) 100%); */
+    padding: 60px;
+    background: #fff;
+}
+#sectionOneAbout .sectionLeft h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: var(--mainBlack);
+
+}
+#sectionOneAbout .sectionLeft p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: var(--lightBlack);
+}
+
+#sectionOneAbout .sectionOneFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 128px;
+
+}
+.sonebadge span{
+    font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+color: #1D243C;
+background: #EAF6F7;
+border-radius: 40px;
+padding: 8px 16px;
+}
+.sonebadge{
+    margin: 0 0 4px 0;
+}
+.soneTitle{
+    font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+color: #1D243C;
+line-height: 56px;
+}
+.soneTitle span{
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0) 50%, rgba(215,238,240,1) 100%);
+}
+.soneText{
+    font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+line-height: 19px;
+color: #1D243C;
+margin: 0;
+padding: 40px 0 20px;
+}
+.sonePoints{
+    font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+line-height: 19px;
+color: #1D243C;
+margin: 0;
+padding-bottom: 16px;
+}
+
+.bullet{
+    max-width: 12px;
+    margin-right: 24px;
+}
+#sectionOne .blueShadeBtn{
+    width: auto;
+    padding: 12px 40px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+color: var(--mainWhite);
+margin-top: 34px;
+}
+
+#sectionOneAbout .contentBoxWhite{
+    width: 400px;
+height: 195px;
+background: var(--mainWhite);
+box-shadow: none;
+border-radius: 8px;
+margin-bottom: 11px;
+border: 1px solid var(--lightGray2);
+}
+/* End Section 1 */
+
+/* Section 4 */
+#sectionFourAbout{
+    background-color: #fafafa;
+    padding: 60px;
+}
+#sectionFourAbout .sectionFlexBox .sectionflexItem{
+    box-shadow: 0px 8px 20px rgba(29, 36, 60, 0);
+    border-radius: 0px;
+    border-top: 0px solid var(--mainBlue);
+    background-color: #fafafa;
+}
+
+/* End Section 4*/
+
+/* Section 5 */
+#sectionFiveAbout{
+    background-color: #fff;
+    padding: 60px;
+}
+/* End Section 5 */
+/* Section 6 */
+#sectionSixAbout{
+    background-color: #EAF6F7;
+    padding: 60px;
+}
+/* End Section 6 */
+
+/* Section 7 */
+#sectionSevenAbout{
+    background-color: #fff;
+    padding: 60px;
+}
+.clientLogo{
+    width: 126px;
+}
+
+.clientCarousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-overflow-scrolling: touch;
+  }
+  .clientItem {
+    flex: 0 0 calc(100% / 7 - 16px);
+    background: var(--mainWhite);
+    box-shadow: 0px 8px 20px rgba(29, 36, 60, 0.12);
+    border-radius: 8px;
+    padding: 5px 13px;
+  }
+/* .clientCarousel{
+    display: flex;
+
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.clientItem{
+    width: calc(152px);
+    background: var(--mainWhite);
+box-shadow: 0px 8px 20px rgba(29, 36, 60, 0.12);
+border-radius: 8px;
+padding: 5px 13px;
+} */
+/* End Section 7 */
+/* Section 8 */
+#sectionEightAbout{
+    padding: 60px;
+    background-color: #fafafa;
+}
+.formTitleName{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+color: var(--mainBlack);
+margin: 0;
+padding-bottom:12px ;
+}
+#sectionEightAbout .paragraph{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: var(--lightBlack);
+margin: 0;
+text-align: center;
+padding-bottom: 20px;
+}
+.subscribeForm{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
+.subscribeForm input[type="email"]{
+    background-color: var(--lightGray1);
+    width: 100%;
+    background: #FAFAFA;
+border: 1px solid var(--lightGray1);
+border-radius: 4px;
+padding: 10px 16px;
+font-size: 12px;
+}
+.formItem{
+
+}
+/* End Section 8 */
+
+.aboutUsFlex{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.aboutUsItem p:first-child{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+color: var(--mainBlack);
+margin: 0;
+padding-bottom: 8px;
+}
+.aboutUsFlex p:nth-child(2){
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+color: var(--lightBlack);
+margin: 0;
+padding-bottom: 5px;
+}
+.aboutUsFlex a{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+color: var(--mainBlue);
+text-decoration: none;
+}
+.aboutUsFlex a:hover{
+    color: var(--mainBlue);
+}
+.aboutUsItem table tr td{
+    vertical-align: top;
+}
+#sectionSevenAbout .slick-slide img{
+    display: flex;
+    justify-content: center;
+    padding: 5px 13px;
+    background: var(--mainWhite);
+ box-shadow: 0px 8px 20px rgba(29, 36, 60, 0.12);
+ border-radius: 8px;
+ height: 60px;
+ /* min-width: 152px; */
+ }
+ #sectionSevenAbout  .slick-list{
+    padding-bottom: 15px;
+}
